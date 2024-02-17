@@ -1,0 +1,20 @@
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: 5px;
+    display: inline-flex; /* Use flexbox for alignment */
+    justify-content: center; /* Align content horizontally */
+    align-items: center; /* Align content vertically */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2em; /* Increase font size for larger emojis */
+}
+
+#game-board {
+    grid-template-columns: repeat(4, 4fr); /* 4 columns */
+}
+
+.hidden {
+    display: none;
+}
