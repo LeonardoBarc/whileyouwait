@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Memory Match Game</title>
-<link rel="stylesheet" href="hackathon.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="hackathon.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <h1>Memory Match Game</h1>
-    <div id="star-rating"></div>
-    <div id="game-board">
-    </div>
-    <script src="hackathon.js"></script>
+    <div class="wrap">
+        <div class="game"></div>
+        
+        <div class="modal-overlay">
+            <div class="modal">
+                <h2 class="winner">You Rock!</h2>
+                <button class="restart">Play Again?</button>
+                
+            </div>
+        </div>
+        <footer>
+            <p class="disclaimer">All logos are property of their respective owners, No Copyright infringement intended.</p>
+        </footer>
+    </div><!-- End Wrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="hackathon.js"></script> <!-- Link to your JavaScript file -->
 </body>
 </html>
